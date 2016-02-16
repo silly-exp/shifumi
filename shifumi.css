@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+/* for footer fixed on bottom: http://matthewjamestaylor.com/blog/keeping-footers-at-the-bottom-of-the-page
+/* for centered menu http://matthewjamestaylor.com/blog/beautiful-css-centered-menus-no-hacks-full-cross-browser-support*/
+
+html,body {
+	margin:0;
+	padding:0;
+	height:100%;
+	background-color: #b0c4de;
+    background-image: url("bg.jpg"); 
+    /*no-repeat scroll 0% 0% transparent;*/
+}
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+/*	margin:0 auto;*/
+}
+
+#board {
+	padding:10px;
+	padding-bottom:140px;
+}
+
+#possible{
+	position:absolute;
+	bottom:0;
+	width: 100%;
+	height:140px;
+	background:#6cf;
+}
+
